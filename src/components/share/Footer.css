@@ -1,0 +1,23 @@
+.footer-container{
+    display: flex;
+    flex:1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.footer-common-container{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.footer-common-container > span {
+    margin-left: 5px;
+}
+
+.footer-right-contianer {
+    justify-content: flex-end;
+}

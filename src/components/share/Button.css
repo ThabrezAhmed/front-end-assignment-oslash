@@ -1,0 +1,46 @@
+.popover-container{
+    width: 30em;
+    max-width: 30em;
+    z-index: 1050;
+}
+
+.popover-head{
+    height: 65px;
+    background-color: transparent;
+}
+
+.popover-h1{
+    font-size: 16px;
+    margin: 0px;
+}
+
+.dialogue-header{
+    display: flex;
+    flex: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+.title-container{
+    margin-left: 8px;
+}
+
+.dialouge-subtitle{
+    margin-top: 4px;
+    font-size: 10px;
+    color: gray;
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.popover .popover-arrow::after, .popover .popover-arrow::before {
+    border-style: unset;
+}
+
+.globe{
+    font-size: 30px;
+}
